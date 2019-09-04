@@ -1,0 +1,27 @@
+.programs {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.locations {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations_nav {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+// .locations li:hover {
+//     background-color: $light-gray;
+//     border-radius: 5px;
+//     cursor: pointer;
+// }
+
+.locations ul li:last-of-type {
+    text-transform: uppercase;
+}
